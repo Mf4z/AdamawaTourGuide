@@ -8,4 +8,6 @@
     <color name="secondaryDarkColor">#009624</color>
     <color name="primaryTextColor">#000000</color>
     <color name="secondaryTextColor">#000000</color>
+    <color name="tan_background">#fff7da</color>
+    <color name="bluegrey">#607d8b</color>
 </resources>

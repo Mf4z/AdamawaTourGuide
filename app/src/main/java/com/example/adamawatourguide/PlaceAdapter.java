@@ -11,7 +11,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class PlaceAdapter extends ArrayAdapter<Place> {
@@ -40,10 +39,10 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         Place curPlace = getItem(position);
 
         TextView name_tv = listItemView.findViewById(R.id.name_tv);
-        name_tv.setText(curPlace.getMname());
+        name_tv.setText(curPlace.getmName());
 
         TextView location_tv = listItemView.findViewById(R.id.location_tv);
-        location_tv.setText(curPlace.getMlocation());
+        location_tv.setText(curPlace.getmLocation());
 
         ImageView defImg = listItemView.findViewById(R.id.image_iv);
 
