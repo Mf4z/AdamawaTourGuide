@@ -9,21 +9,21 @@ public class Place {
     private String mName;
 
     //Member variable to store location of place
-    private String mLocation;
+    private String mInfo;
 
     //Member variable, saves Image Value. Assigned to NO_IMAGE_PROVIDED
     private int mimgId = NO_IMAGE_PROVIDED;
 
     //Place constructor that takes in 2 parameters
-    public Place(String mName, String mLocation) {
+    public Place(String mName, String mInfo) {
         this.mName = mName;
-        this.mLocation = mLocation;
+        this.mInfo = mInfo;
     }
 
     //Place constructor that takes in 3 parameters
-    public Place(String mName, String mLocation, int mimgId) {
+    public Place(String mName, String mInfo, int mimgId) {
         this.mName = mName;
-        this.mLocation = mLocation;
+        this.mInfo = mInfo;
         this.mimgId = mimgId;
     }
 
@@ -33,8 +33,8 @@ public class Place {
         return mName;
     }
 
-    public String getmLocation() {
-        return mLocation;
+    public String getmInfo() {
+        return mInfo;
     }
 
     public int getMimgId() {
@@ -51,7 +51,7 @@ public class Place {
     public String toString() {
         return "Place{" +
                 "mName='" + mName + '\'' +
-                ", mLocation='" + mLocation + '\'' +
+                ", mInfo='" + mInfo + '\'' +
                 ", mimgId=" + mimgId +
                 '}';
     }

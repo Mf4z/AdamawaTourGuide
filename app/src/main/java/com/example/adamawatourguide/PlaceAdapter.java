@@ -42,7 +42,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         name_tv.setText(curPlace.getmName());
 
         TextView location_tv = listItemView.findViewById(R.id.location_tv);
-        location_tv.setText(curPlace.getmLocation());
+        location_tv.setText(curPlace.getmInfo());
 
         ImageView defImg = listItemView.findViewById(R.id.image_iv);
 
