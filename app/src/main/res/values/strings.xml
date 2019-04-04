@@ -9,4 +9,24 @@
     <string name="top_attractions">Attractions</string>
     <string name="historical_sites">Sites</string>
     <string name="events">Events</string>
+    <string name="t_attract">Top Attractions</string>
+    <string name="h_sites">Historical Sites</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us">Contact us</string>
+    <string name="info">Information</string>
+    <string name="addr">Address</string>
+    <string name="cont">Contact</string>
+    <string name="waz">14C Waziri Maccido Road,Malali Kaduna.</string>
+    <string name="num">+2349066376106</string>
+    <string name="mail">Email</string>
+    <string name="bemail">binarycomputers.itsolutions@gmail.com</string>
+    <string name="twt">Twitter</string>
+    <string name="binaryHandle">\@01Computers</string>
+    <string name="bitbbit">Making life easier bit by bit...</string>
+    <string name="wedo">What we do</string>
+    <string name="sftwhd">Software solutions and computer accesories</string>
+    <string name="hndl">\@Mf4z</string>
+    <string name="eme">emef4z@gmail.com</string>
+    <string name="binCom">Binary Computers I.T Solutions</string>
+
 </resources>

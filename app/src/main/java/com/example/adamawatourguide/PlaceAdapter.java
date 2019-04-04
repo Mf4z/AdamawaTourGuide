@@ -19,7 +19,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
     //Instance variable for color resource id
     private int mColorResourceId;
 
-    public PlaceAdapter(Context context,@NonNull List<Place> objects,int colorResId) {
+    public PlaceAdapter(Context context, @NonNull List<Place> objects, int colorResId) {
         super(context, 0, objects);
 
         //Resource color for background of color of list of words
@@ -32,8 +32,8 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
 
         View listItemView = convertView;
 
-        if(listItemView == null){
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item,parent,false);
+        if (listItemView == null) {
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
         Place curPlace = getItem(position);
@@ -49,9 +49,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         if (curPlace.hasImage()) {
             defImg.setImageResource(curPlace.getMimgId());
             defImg.setVisibility(View.VISIBLE);
-        }
-
-        else {
+        } else {
             defImg.setVisibility(View.GONE);
         }
 

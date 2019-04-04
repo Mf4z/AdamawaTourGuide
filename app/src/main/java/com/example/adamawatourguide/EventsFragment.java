@@ -23,15 +23,15 @@ public class EventsFragment extends Fragment {
 
         final ArrayList<Place> events = new ArrayList<>();
 
-        events.add(new Place("Eid el Kabir","Celebrating 10th ZulHajj"));
-        events.add(new Place("Eid el Fitr","Celebrating the end of Ramadan"));
-        events.add(new Place("Hawan Daushe","Eid Dabur"));
-        events.add(new Place("Njuwa Fishing Festival"," March-May. Buatiya,Bata Adamawa"));
-        events.add(new Place("Sharo Shadi Festival","Celebrated on Eid el Kabir day"));
-        events.add(new Place("Sharo Shadi Festival","Celebrated on Eid el Kabir day"));
+        events.add(new Place("Eid el Kabir", "Celebrating 10th ZulHajj"));
+        events.add(new Place("Eid el Fitr", "Celebrating the end of Ramadan"));
+        events.add(new Place("Hawan Daushe", "Eid Dabur"));
+        events.add(new Place("Njuwa Fishing Festival", " March-May. Buatiya,Bata Adamawa"));
+        events.add(new Place("Sharo Shadi Festival", "Celebrated on Eid el Kabir day"));
+        events.add(new Place("Sharo Shadi Festival", "Celebrated on Eid el Kabir day"));
 
 
-        PlaceAdapter adapter = new PlaceAdapter(getActivity(),events,R.color.primaryColor);
+        PlaceAdapter adapter = new PlaceAdapter(getActivity(), events, R.color.primaryColor);
 
         ListView listView = rootView.findViewById(R.id.list);
 
@@ -44,7 +44,7 @@ public class EventsFragment extends Fragment {
                 Place place = events.get(position);
 
                 String name = place.getmName();
-                Toast.makeText(getActivity(),name,Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), name, Toast.LENGTH_SHORT).show();
             }
         });
 

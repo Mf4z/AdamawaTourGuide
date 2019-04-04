@@ -37,7 +37,7 @@ public class AttractionsFragment extends Fragment {
         attractions.add(new Place("Nigerian Law School,Yola","Yola bypass",R.drawable.lawsch));
         attractions.add(new Place("F.C.E","Yola Road, Jimeta",R.drawable.fce));
 
-        PlaceAdapter adapter = new PlaceAdapter(getActivity(),attractions,R.color.primaryColor);
+        PlaceAdapter adapter = new PlaceAdapter(getActivity(),attractions,R.color.redcol);
 
         ListView listView = rootView.findViewById(R.id.list);
 
